@@ -163,6 +163,7 @@
     flex-direction: column;
     width: 100%;
     height: fit-content;
+    min-height: 75vh;
     background-color: whitesmoke;
     align-items: center;
     align-content: center;

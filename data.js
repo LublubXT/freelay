@@ -196,7 +196,8 @@ const main_1 = {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 75vh;
+    height: fit-content;
+    min-height: 75vh;
     background-color: whitesmoke;
     align-items: center;
     align-content: center;
@@ -210,6 +211,7 @@ const main_1 = {
     font-family: "Courier New", Courier, monospace;
     letter-spacing: 5px;
     font-weight: 100;
+    font-size: 20px;
     margin-bottom: 50px;
 }
 
@@ -219,6 +221,8 @@ const main_1 = {
     background-color: rgb(158, 158, 158);
     margin-bottom: 50px;
     border-radius: 50%;
+    background-image: url();
+    background-size: cover;
 }\n\n`
 };
 

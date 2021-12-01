@@ -1879,6 +1879,9 @@
        style="fill:#1acba6;stroke:none;stroke-width:1.665;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="m -2069.3415,101.48081 c 5.7268,91.79047 1.7846,180.22935 0,269.41613 l 29.0432,-29.32268 c -8.4881,-54.06 -20.0637,-107.45178 0,-167.6913 21.9464,-6.07473 42.6436,-3.8427 63.0986,0 -10.5722,-25.37028 16.4824,-19.34422 29.9992,-24.61429 -31.2644,1.28841 -62.2703,3.4529 -94.9333,0 -7.1722,-12.56977 -4.9759,-24.05891 0,-35.22742 40.2723,-10.35973 82.1502,-3.65095 123.7404,0 -2.5892,-12.23613 8.3452,-19.216727 27.1191,-23.1507 -59.6608,1.847505 -119.2786,3.315618 -178.3529,0 z"
        id="path1825"
-       sodipodi:nodetypes="cccccccccccc" />
+       sodipodi:nodetypes="cccccccccccc"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/logo.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
   </g>
 </svg>
