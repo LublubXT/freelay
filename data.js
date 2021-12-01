@@ -42,6 +42,12 @@ const navbar_1 = {
     background-color: rgb(212, 212, 212);
     border-radius: 7px;
     padding: 10px 15px;
+}\n\n`,
+    responsive_css: `.navbar-1 {
+    background-color: rgb(226, 226, 226);
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
 }\n\n`
 };
 
@@ -58,6 +64,12 @@ const navbar_2 = {
     display: flex;
     flex-direction: row;
     border-radius: 15px;
+}\n\n`,
+    responsive_css: `.navbar-2 {
+    background-color: rgb(226, 226, 226);
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
 }\n\n`
 };
 
@@ -82,7 +94,8 @@ const header_1 = {
     font-family: "Courier New", Courier, monospace;
     letter-spacing: 5px;
     font-weight: 100;
-}\n\n`
+}\n\n`,
+
 };
 
 const header_2 = {
@@ -376,6 +389,31 @@ const main_3 = {
     padding: 20px 30px;
     border-radius: 50px;
     opacity: 0.8;
+}\n\n`,
+    responsive_css: `.main-3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    background-color: whitesmoke;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.main-item-3 {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 70%;
+}
+.main-item-image-3 {
+    width: 15vw;
+    height: 15vw;
+    background-color: rgb(153, 153, 153);
+    border-radius: 50%;
+    margin: 30px auto;
 }\n\n`
 };
 
@@ -416,6 +454,20 @@ const main_4 = {
     background-image: url();
     background-size: cover;
     margin-left: 100px;
+}\n\n`,
+    responsive_css: `.main-4 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 75vh;
+    height: fit-content;
+    background-color: whitesmoke;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.main-image-4 {
+    margin-left: 0px;
 }\n\n`
 };
 
@@ -456,5 +508,15 @@ const main_5 = {
     background-image: url();
     background-size: cover;
     margin-right: 100px;
+}\n\n`,
+    responsive_css: `.main-image-5 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(158, 158, 158);
+    margin-bottom: 50px;
+    border-radius: 50%;
+    background-image: url();
+    background-size: cover;
+    margin-right: 0px;
 }\n\n`
 };

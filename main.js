@@ -1,6 +1,9 @@
 var page_html = ""
 
 var page_css = ""
+var responsive_css = ""
+
+var page_css_all;
 
 function add_navbar_1() {
     page_html += navbar_1.html;
@@ -8,6 +11,7 @@ function add_navbar_1() {
         render();
     } else {
         page_css += navbar_1.css;
+        responsive_css += navbar_1.responsive_css;
         render()
     }
 }
@@ -110,6 +114,14 @@ function render() {
         // console.log(page_plain_html)
     console.log(page_html)
 
+    page_css_all = `body {
+    margin: 0px;
+}\n
+${page_css}
+@media (max-width: 800px) {
+    ${responsive_css}
+}`
+
     document.getElementById('html_of_page').innerText = page_html;
-    document.getElementById('css_of_page').innerText = page_css;
+    document.getElementById('css_of_page').innerText = page_css_all;
 }
