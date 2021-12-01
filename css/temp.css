@@ -413,4 +413,25 @@
     .main-image-4 {
         margin-left: 0px;
     }
+    .main-5 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: 75vh;
+        height: fit-content;
+        background-color: whitesmoke;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    .main-image-5 {
+        width: 200px;
+        height: 200px;
+        background-color: rgb(158, 158, 158);
+        margin-bottom: 50px;
+        border-radius: 50%;
+        background-image: url();
+        background-size: cover;
+        margin-right: 0px;
+    }
 }
