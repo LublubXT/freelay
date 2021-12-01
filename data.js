@@ -247,8 +247,10 @@ const main_2 = {
 </div>\n\n`,
     css: `.main-1 {
     display: flex;
+    flex-direction: column;
     width: 100%;
-    height: 75vh;
+    height: fit-content;
+    min-height: 75vh;
     background-color: whitesmoke;
     align-items: center;
     align-content: center;
@@ -262,12 +264,16 @@ const main_2 = {
     font-family: "Courier New", Courier, monospace;
     letter-spacing: 5px;
     font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 50px;
 }
 
 .main-image-1 {
-    background-color: rgb(153, 153, 153);
     width: 200px;
     height: 200px;
+    background-color: rgb(158, 158, 158);
+    margin-bottom: 50px;
+    border-radius: 50%;
     background-image: url();
     background-size: cover;
 }
@@ -275,7 +281,7 @@ const main_2 = {
 .main-button-1 {
     text-align: center;
     margin: 0px;
-    color: var(--first);
+    color: whitesmoke;
     font-family: "Courier New", Courier, monospace;
     letter-spacing: 2px;
     font-weight: 500;
@@ -363,7 +369,7 @@ const main_3 = {
     display: block;
     text-align: center;
     margin: 0px;
-    color: var(--first);
+    color: white;
     font-family: "Courier New", Courier, monospace;
     letter-spacing: 2px;
     font-weight: 500;
@@ -409,12 +415,12 @@ const main_3 = {
     width: 70%;
 }
 .main-item-image-3 {
-    width: 15vw;
-    height: 15vw;
+    width: 150px;
+    height: 150px;
     background-color: rgb(153, 153, 153);
     border-radius: 50%;
     margin: 30px auto;
-}\n\n`
+}`
 };
 
 const main_4 = {
@@ -446,8 +452,8 @@ const main_4 = {
 }
 
 .main-image-4 {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     background-color: rgb(158, 158, 158);
     margin-bottom: 50px;
     border-radius: 50%;
@@ -468,6 +474,8 @@ const main_4 = {
 }
 .main-image-4 {
     margin-left: 0px;
+    width: 200px;
+    height: 200px;
 }\n\n`
 };
 
@@ -500,8 +508,8 @@ const main_5 = {
 }
 
 .main-image-5 {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     background-color: rgb(158, 158, 158);
     margin-bottom: 50px;
     border-radius: 50%;
@@ -509,7 +517,18 @@ const main_5 = {
     background-size: cover;
     margin-right: 100px;
 }\n\n`,
-    responsive_css: `.main-image-5 {
+    responsive_css: `.main-5 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 75vh;
+    height: fit-content;
+    background-color: whitesmoke;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.main-image-5 {
     width: 200px;
     height: 200px;
     background-color: rgb(158, 158, 158);
@@ -519,4 +538,75 @@ const main_5 = {
     background-size: cover;
     margin-right: 0px;
 }\n\n`
+};
+
+const footer_1 = {
+    html: `<div class="footer-1">
+    <div class="footer-container-1">
+        <h1 class="footer-title-1">- Title -</h1>
+    </div>
+    <div class="footer-container-1">
+        <a class="footer-link-1" href="#">- Link -</a>
+        <a class="footer-link-1" href="#">- Link -</a>
+        <a class="footer-link-1" href="#">- Link -</a>
+    </div>
+    <div class="footer-container-1">
+        <a class="footer-link-1" href="#">- Link -</a>
+        <a class="footer-link-1" href="#">- Link -</a>
+        <a class="footer-link-1" href="#">- Link -</a>
+    </div>
+</div>`,
+    css: `.footer-1 {
+    display: flex;
+    flex-direction: row;
+    font-family: "Courier New", Courier, monospace;
+    width: 100%;
+    min-height: 200px;
+    height: fit-content;
+    background-color: rgb(226, 226, 226);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.footer-container-1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.footer-link-1 {
+    margin: 7px;
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+    font-size: 14px;
+    transition: all 0.4s ease;
+}
+
+.footer-link-1:hover {
+    font-size: 17px;
+}`,
+    responsive_css: `.footer-1 {
+    display: flex;
+    flex-direction: column;
+    font-family: "Courier New", Courier, monospace;
+    width: 100%;
+    min-height: 200px;
+    height: fit-content;
+    background-color: rgb(226, 226, 226);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.footer-container-1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}`
 };

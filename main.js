@@ -22,6 +22,7 @@ function add_navbar_2() {
         render();
     } else {
         page_css += navbar_2.css;
+        responsive_css += navbar_2responsive_css;
         render()
     }
 }
@@ -78,6 +79,7 @@ function add_main_2() {
 
 function add_main_3() {
     page_html += main_3.html
+    responsive_css += main_3.responsive_css;
     if (page_css.includes('.main-3')) {
         render();
     } else {
@@ -88,6 +90,7 @@ function add_main_3() {
 
 function add_main_4() {
     page_html += main_4.html
+    responsive_css += main_4.responsive_css;
     if (page_css.includes('.main-4')) {
         render();
     } else {
@@ -98,10 +101,22 @@ function add_main_4() {
 
 function add_main_5() {
     page_html += main_5.html
+    responsive_css += main_5.responsive_css;
     if (page_css.includes('.main-5')) {
         render();
     } else {
         page_css += main_5.css;
+        render()
+    }
+}
+
+function add_footer_1() {
+    page_html += footer_1.html
+    responsive_css += footer_1.responsive_css;
+    if (page_css.includes('.footer-1')) {
+        render();
+    } else {
+        page_css += footer_1.css;
         render()
     }
 }
