@@ -1,5 +1,4 @@
 # Freelay
----
 ![freelay logo](https://github.com/LublubXT/freelay/blob/main/layout_img/logo.png)
 
 ## What is Freelay?
