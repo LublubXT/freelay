@@ -181,7 +181,7 @@ body {
     font-family: "Courier New", Courier, monospace;
     letter-spacing: 0px;
     font-weight: 100;
-    width: 350px;
+    width: 90%;
     margin: auto;
     margin-bottom: 50px;
 }
@@ -369,12 +369,15 @@ body {
         border-radius: 7px;
         padding: 10px 15px;
     }
+    .header-title-1 {
+        width: 70%;
+    }
     .main-image-1 {
         margin-top: 100px;
         margin-bottom: 50px;
     }
     .main-button-1 {
-        margin-bottom: 100px;
+        margin-bottom: 150px;
     }
     .main-3 {
         display: flex;

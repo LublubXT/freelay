@@ -900,7 +900,7 @@ const main_3_6 = {
     </div>
     <div class="main-item-3">
         <button class="main-item-button-3-6">Button</button>
-    </div
+    </div>
 </div>\n\n`,
     css: `.main-3 {
     display: flex;
@@ -1112,6 +1112,19 @@ const main_5 = {
     background-size: cover;
     margin-right: 0px;
 }\n\n`
+};
+
+const main_6 = {
+    html: `<div class="main-6">
+    <div class="main-sidebar-6"></div>
+    <div class="main-content-6">
+        <div class="main-image-6"></div>
+        <h1 class="main-title-6">- Main Title Text -</h1>
+        <h1 class="main-text-6">- Main Text -</h1>
+    </div>
+</div>\n\n`,
+    css: `\n\n`,
+    responsive_css: `\n\n`
 };
 
 const footer_1 = {

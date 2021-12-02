@@ -176,6 +176,61 @@ function add_main_5() {
     }
 }
 
+function add_main_6() {
+    page_html += main_6.html
+    responsive_css += main_6.responsive_css;
+    if (page_css.includes('.main-6')) {
+        render();
+    } else {
+        page_css += main_6.css;
+        render()
+    }
+}
+
+function add_main_7() {
+    page_html += main_7.html
+    responsive_css += main_7.responsive_css;
+    if (page_css.includes('.main-7')) {
+        render();
+    } else {
+        page_css += main_7.css;
+        render()
+    }
+}
+
+function add_main_8() {
+    page_html += main_8.html
+    responsive_css += main_8.responsive_css;
+    if (page_css.includes('.main-8')) {
+        render();
+    } else {
+        page_css += main_8.css;
+        render()
+    }
+}
+
+function add_main_9() {
+    page_html += main_9.html
+    responsive_css += main_9.responsive_css;
+    if (page_css.includes('.main-9')) {
+        render();
+    } else {
+        page_css += main_9.css;
+        render()
+    }
+}
+
+function add_main_10() {
+    page_html += main_10.html
+    responsive_css += main_10.responsive_css;
+    if (page_css.includes('.main-10')) {
+        render();
+    } else {
+        page_css += main_10.css;
+        render()
+    }
+}
+
 function add_footer_1() {
     page_html += footer_1.html
     responsive_css += footer_1.responsive_css;

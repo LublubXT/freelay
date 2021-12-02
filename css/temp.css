@@ -338,7 +338,6 @@
     border-radius: 50px;
     outline: none;
     margin: auto;
-    margin-bottom: 50px;
     opacity: 0.8;
 }
 
@@ -408,6 +407,43 @@
     background-image: url();
     background-size: cover;
     margin-right: 100px;
+}
+
+.main-6 {
+    width: 100%;
+    min-height: 75vh;
+    height: fit-content;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-sidebar-6 {
+    width: 20%;
+    min-height: 50vh;
+    height: fit-content;
+    background-color: rgb(223, 223, 223);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.main-content-6 {
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(226, 226, 226);
+    border-radius: 10px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.main-title-6 {
+    font-weight: 100;
+    text-align: center;
+}
+
+.main-text-6 {
+    font-size: 17px;
+    font-weight: 100;
 }
 
 .footer-1 {
