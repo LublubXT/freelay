@@ -331,7 +331,9 @@ const main_3 = {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 75vh;
+    height: fit-content;
+    min-height: 75vh;
+    padding: 100px auto;
     background-color: whitesmoke;
     align-items: center;
     align-content: center;
@@ -342,8 +344,7 @@ const main_3 = {
     padding: 20px;
     border-radius: 10px;
     background-color: rgb(226, 226, 226);
-    margin: auto 2%;
-    padding-bottom: 50px;
+    margin: 100px 2%;
     width: 20%;
 }
 
@@ -369,7 +370,7 @@ const main_3 = {
     display: block;
     text-align: center;
     margin: 0px;
-    color: white;
+    color: var(--first);
     font-family: "Courier New", Courier, monospace;
     letter-spacing: 2px;
     font-weight: 500;
@@ -380,6 +381,7 @@ const main_3 = {
     border-radius: 50px;
     outline: none;
     margin: auto;
+    margin-bottom: 50px;
     transition: all 0.4s ease;
 }
 
@@ -420,6 +422,218 @@ const main_3 = {
     background-color: rgb(153, 153, 153);
     border-radius: 50%;
     margin: 30px auto;
+}`
+};
+
+const main_3_1 = {
+    html: `<div class="main-3">
+    <div class="main-item-3">
+        <div class="main-item-image-3"></div>
+        <p class="main-item-text-3">- Main Item Text -</p>
+    </div>
+    <div class="main-item-3">
+        <div class="main-item-image-3"></div>
+        <p class="main-item-text-3">- Main Item Text -</p>
+    </div>
+    <div class="main-item-3">
+        <div class="main-item-image-3"></div>
+        <p class="main-item-text-3">- Main Item Text -</p>
+    </div>
+</div>\n\n`,
+    css: `.main-3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    min-height: 75vh;
+    padding: 100px auto;
+    background-color: whitesmoke;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.main-item-3 {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+    margin: 100px 2%;
+    width: 20%;
+}
+
+.main-item-image-3 {
+    width: 7vw;
+    height: 7vw;
+    background-color: rgb(153, 153, 153);
+    border-radius: 50%;
+    margin: 30px auto;
+}
+
+.main-item-text-3 {
+    text-align: center;
+    margin: 0px;
+    color: var(--fourth);
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 0px;
+    font-weight: 100;
+    margin-bottom: 50px;
+}\n\n`,
+    responsive_css: `.main-3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    background-color: whitesmoke;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.main-item-3 {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 70%;
+}
+.main-item-image-3 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(153, 153, 153);
+    border-radius: 50%;
+    margin: 30px auto;
+}`
+};
+
+const main_3_2 = {
+    html: `<div class="main-3">
+    <div class="main-item-3">
+        <div class="main-item-image-3"></div>
+    </div>
+    <div class="main-item-3">
+        <div class="main-item-image-3"></div>
+    </div>
+    <div class="main-item-3">
+        <div class="main-item-image-3"></div>
+    </div>
+</div>\n\n`,
+    css: `.main-3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    min-height: 75vh;
+    padding: 100px auto;
+    background-color: whitesmoke;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.main-item-3 {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+    margin: 100px 2%;
+    width: 20%;
+}
+
+.main-item-image-3 {
+    width: 7vw;
+    height: 7vw;
+    background-color: rgb(153, 153, 153);
+    border-radius: 50%;
+    margin: 30px auto;
+}\n\n`,
+    responsive_css: `.main-3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    background-color: whitesmoke;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.main-item-3 {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 70%;
+}
+.main-item-image-3 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(153, 153, 153);
+    border-radius: 50%;
+    margin: 30px auto;
+}`
+};
+
+const main_3_3 = {
+    html: `<div class="main-3">
+    <div class="main-item-3">
+        <p class="main-item-text-3">- Main Item Text -</p>
+    </div>
+    <div class="main-item-3">
+        <p class="main-item-text-3">- Main Item Text -</p>
+    </div>
+    <div class="main-item-3">
+        <p class="main-item-text-3">- Main Item Text -</p>
+    </div>
+</div>\n\n`,
+    css: `.main-3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    min-height: 75vh;
+    padding: 100px auto;
+    background-color: whitesmoke;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.main-item-3 {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+    margin: 100px 2%;
+    width: 20%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.main-item-text-3 {
+    text-align: center;
+    margin: 0px;
+    color: var(--fourth);
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 0px;
+    font-weight: 100;
+    margin-bottom: 50px;
+}\n\n`,
+    responsive_css: `.main-3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    background-color: whitesmoke;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.main-item-3 {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 70%;
 }`
 };
 

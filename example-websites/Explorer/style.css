@@ -1,22 +1,35 @@
+body {
+    margin: 0px;
+}
+
 .navbar-1 {
-    background-color: rgb(226, 226, 226);
+    background-color: rgba(255, 255, 255, 0.274);
     padding: 0px 20px;
     display: flex;
     flex-direction: row;
+    position: sticky;
+    top: 0px;
+    backdrop-filter: blur(10px);
+    z-index: 1;
 }
 
 .nav-title-1 {
     color: var(--fourth);
     font-family: "Courier New", Courier, monospace;
-    letter-spacing: 7px;
+    letter-spacing: 2px;
     font-weight: 100;
     margin-right: 20px;
+    font-size: 20px;
+}
+
+.nav-title-1::first-letter {
+    font-size: 30px;
 }
 
 .nav-link-1 {
     color: var(--fourth);
     font-family: "Courier New", Courier, monospace;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     font-weight: 100;
     text-decoration: none;
     margin: auto 0px;
@@ -27,7 +40,7 @@
 .nav-link-1:hover {
     color: var(--fourth);
     font-family: "Courier New", Courier, monospace;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     font-weight: 100;
     text-decoration: none;
     margin: auto 0px;
@@ -37,125 +50,30 @@
     padding: 10px 15px;
 }
 
-.navbar-2 {
-    background-color: rgb(226, 226, 226);
-    padding: 0px 20px;
-    display: flex;
-    flex-direction: row;
-    border-radius: 15px;
-}
-
 .header-1 {
     display: flex;
     width: 100%;
-    height: 75vh;
+    min-height: 95vh;
     background-color: whitesmoke;
+    background-image: url("https://ifmga.info/sites/default/files/styles/homepage_slideshow/public/homepage_slideshow/ifmga_dominik_meyer_-_kala_patar.jpg?itok=MxZMn-Eu");
+    background-size: cover;
     align-items: center;
     align-content: center;
     justify-content: center;
-    background-image: url("");
-    background-size: cover;
 }
 
 .header-title-1 {
     text-align: center;
     margin: 0px;
-    color: var(--fourth);
-    font-family: "Courier New", Courier, monospace;
-    letter-spacing: 5px;
-    font-weight: 100;
-    font-size: 20px;
-}
-
-.header-2 {
-    display: flex;
-    width: 100%;
-    height: 75vh;
-    background-color: whitesmoke;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-}
-
-.header-button-2 {
-    text-align: center;
-    margin: 0px;
-    color: var(--first);
-    font-family: "Courier New", Courier, monospace;
-    letter-spacing: 2px;
-    font-weight: 500;
-    font-size: 20px;
-    background-color: rgb(158, 158, 158);
-    border: 5px solid rgb(153, 153, 153);
-    padding: 20px 30px;
-    border-radius: 50px;
-    outline: none;
-    transition: all 0.4s ease;
-}
-
-.header-button-2:hover {
-    text-align: center;
-    margin: 0px;
-    color: var(--fourth);
+    color: white;
     font-family: "Courier New", Courier, monospace;
     letter-spacing: 2px;
     font-weight: 100;
-    background-color: transparent;
-    border: 5px solid rgb(153, 153, 153);
-    padding: 20px 30px;
-    border-radius: 50px;
-    opacity: 0.8;
-}
-
-.header-3 {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 75vh;
-    background-color: whitesmoke;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-}
-
-.header-title-3 {
-    text-align: center;
-    margin: 0px;
-    color: var(--fourth);
-    font-family: "Courier New", Courier, monospace;
-    letter-spacing: 5px;
-    font-weight: 100;
-    margin-bottom: 50px;
-}
-
-.header-button-3 {
-    text-align: center;
-    margin: 0px;
-    color: var(--first);
-    font-family: "Courier New", Courier, monospace;
-    letter-spacing: 2px;
-    font-weight: 500;
-    font-size: 20px;
-    background-color: rgb(158, 158, 158);
-    border: 5px solid rgb(153, 153, 153);
-    padding: 20px 30px;
-    border-radius: 50px;
-    outline: none;
-    transition: all 0.4s ease;
-}
-
-.header-button-3:hover {
-    text-align: center;
-    margin: 0px;
-    color: var(--fourth);
-    font-family: "Courier New", Courier, monospace;
-    letter-spacing: 2px;
-    font-weight: 100;
-    background-color: transparent;
-    border: 5px solid rgb(153, 153, 153);
-    padding: 20px 30px;
-    border-radius: 50px;
-    opacity: 0.8;
+    font-size: 50px;
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border: 7px solid white;
+    border-radius: 10px;
 }
 
 .main-1 {
@@ -175,35 +93,39 @@
     margin: 0px;
     color: var(--fourth);
     font-family: "Courier New", Courier, monospace;
-    letter-spacing: 5px;
+    letter-spacing: 0px;
     font-weight: 100;
     font-size: 20px;
     margin-bottom: 50px;
+    width: 400px;
 }
 
 .main-image-1 {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-color: rgb(158, 158, 158);
     margin-bottom: 50px;
     border-radius: 50%;
     background-image: url();
     background-size: cover;
+    margin-top: 150px;
+    box-shadow: 2px 5px 20px 10px rgb(221, 221, 221);
 }
 
 .main-button-1 {
     text-align: center;
     margin: 0px;
-    color: var(--first);
+    color: whitesmoke;
     font-family: "Courier New", Courier, monospace;
     letter-spacing: 2px;
     font-weight: 500;
     font-size: 15px;
-    background-color: rgb(158, 158, 158);
-    border: 5px solid rgb(153, 153, 153);
+    background-color: rgb(53, 53, 53);
+    border: 5px solid rgb(54, 54, 54);
     padding: 20px 30px;
     border-radius: 50px;
     outline: none;
+    margin-bottom: 150px;
     transition: all 0.4s ease;
 }
 
@@ -215,9 +137,10 @@
     letter-spacing: 2px;
     font-weight: 100;
     background-color: transparent;
-    border: 5px solid rgb(153, 153, 153);
+    border: 5px solid rgb(54, 54, 54);
     padding: 20px 30px;
     border-radius: 50px;
+    margin-bottom: 150px;
     opacity: 0.8;
 }
 
@@ -225,9 +148,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: fit-content;
-    min-height: 75vh;
-    padding: 100px auto;
+    height: 75vh;
     background-color: whitesmoke;
     align-items: center;
     align-content: center;
@@ -237,14 +158,16 @@
 .main-item-3 {
     padding: 20px;
     border-radius: 10px;
-    background-color: rgb(226, 226, 226);
-    margin: 100px 2%;
+    background-color: rgb(255, 255, 255);
+    margin: auto 2%;
+    padding-bottom: 50px;
     width: 20%;
+    box-shadow: 2px 5px 20px 5px rgb(233, 233, 233);
 }
 
 .main-item-image-3 {
-    width: 7vw;
-    height: 7vw;
+    width: 10vw;
+    height: 10vw;
     background-color: rgb(153, 153, 153);
     border-radius: 50%;
     margin: 30px auto;
@@ -257,6 +180,8 @@
     font-family: "Courier New", Courier, monospace;
     letter-spacing: 0px;
     font-weight: 100;
+    width: 350px;
+    margin: auto;
     margin-bottom: 50px;
 }
 
@@ -264,18 +189,17 @@
     display: block;
     text-align: center;
     margin: 0px;
-    color: var(--first);
+    color: white;
     font-family: "Courier New", Courier, monospace;
     letter-spacing: 2px;
     font-weight: 500;
-    font-size: 12px;
-    background-color: rgb(158, 158, 158);
-    border: 5px solid rgb(153, 153, 153);
+    font-size: 17px;
+    background-color: rgb(53, 53, 53);
+    border: 5px solid rgb(54, 54, 54);
     padding: 10px 20px;
     border-radius: 50px;
     outline: none;
     margin: auto;
-    margin-bottom: 50px;
     transition: all 0.4s ease;
 }
 
@@ -287,7 +211,7 @@
     letter-spacing: 2px;
     font-weight: 100;
     background-color: transparent;
-    border: 5px solid rgb(153, 153, 153);
+    border: 5px solid rgb(54, 54, 54);
     padding: 20px 30px;
     border-radius: 50px;
     opacity: 0.8;
@@ -308,9 +232,10 @@
 .main-title-4 {
     text-align: center;
     margin: 0px;
+    width: 500px;
     color: var(--fourth);
     font-family: "Courier New", Courier, monospace;
-    letter-spacing: 5px;
+    letter-spacing: 0px;
     font-weight: 100;
     font-size: 20px;
     margin-bottom: 50px;
@@ -325,6 +250,7 @@
     background-image: url();
     background-size: cover;
     margin-left: 100px;
+    box-shadow: 2px 5px 20px 5px rgb(233, 233, 233);
 }
 
 .main-5 {
@@ -337,17 +263,19 @@
     align-items: center;
     align-content: center;
     justify-content: center;
+    padding-bottom: 100px;
 }
 
 .main-title-5 {
     text-align: center;
     margin: 0px;
+    width: 500px;
     color: var(--fourth);
     font-family: "Courier New", Courier, monospace;
-    letter-spacing: 5px;
+    letter-spacing: 0px;
     font-weight: 100;
     font-size: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
 }
 
 .main-image-5 {
@@ -359,6 +287,7 @@
     background-image: url();
     background-size: cover;
     margin-right: 100px;
+    box-shadow: 2px 5px 20px 5px rgb(233, 233, 233);
 }
 
 .footer-1 {
@@ -367,11 +296,11 @@
     width: 100%;
     min-height: 200px;
     height: fit-content;
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(255, 255, 255);
+    font-family: "Courier New", Courier, monospace;
     align-items: center;
     align-content: center;
     justify-content: center;
-    font-family: "Courier New", Courier, monospace;
 }
 
 .footer-container-1 {
@@ -387,26 +316,64 @@
     margin: 7px;
     text-decoration: none;
     color: rgb(41, 41, 41);
-    font-size: 14px;
+    font-size: 20px;
     transition: all 0.4s ease;
 }
 
 .footer-link-1:hover {
-    font-size: 17px;
+    font-size: 25px;
 }
 
 @media (max-width: 800px) {
     .navbar-1 {
-        background-color: rgb(226, 226, 226);
+        background-color: rgba(255, 255, 255, 0.274);
         padding: 0px 20px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        position: sticky;
+        top: 0px;
+        backdrop-filter: blur(10px);
+        z-index: 1;
     }
-    .navbar-2 {
-        background-color: rgb(226, 226, 226);
-        padding: 0px 20px;
-        display: flex;
-        flex-direction: column;
+    .nav-title-1 {
+        color: var(--fourth);
+        font-family: "Courier New", Courier, monospace;
+        letter-spacing: 2px;
+        font-weight: 100;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+    .nav-title-1::first-letter {
+        font-size: 30px;
+    }
+    .nav-link-1 {
+        color: var(--fourth);
+        font-family: "Courier New", Courier, monospace;
+        letter-spacing: 2px;
+        font-weight: 100;
+        text-decoration: none;
+        margin: auto 0px;
+        padding: 10px 15px;
+        transition: all 0.4s ease;
+    }
+    .nav-link-1:hover {
+        color: var(--fourth);
+        font-family: "Courier New", Courier, monospace;
+        letter-spacing: 2px;
+        font-weight: 100;
+        text-decoration: none;
+        margin: auto 0px;
+        opacity: 0.7;
+        background-color: rgb(212, 212, 212);
+        border-radius: 7px;
+        padding: 10px 15px;
+    }
+    .main-image-1 {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    .main-button-1 {
+        margin-bottom: 100px;
     }
     .main-3 {
         display: flex;
@@ -421,10 +388,22 @@
     .main-item-3 {
         padding: 20px;
         border-radius: 10px;
-        background-color: rgb(226, 226, 226);
+        background-color: rgb(255, 255, 255);
         margin: 50px auto;
         padding-bottom: 50px;
         width: 70%;
+        box-shadow: 2px 5px 20px 5px rgb(233, 233, 233);
+    }
+    .main-item-text-3 {
+        text-align: center;
+        margin: 0px;
+        color: var(--fourth);
+        font-family: "Courier New", Courier, monospace;
+        letter-spacing: 0px;
+        font-weight: 100;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 50px;
     }
     .main-item-image-3 {
         width: 150px;
@@ -444,10 +423,22 @@
         align-content: center;
         justify-content: center;
     }
+    .main-title-4 {
+        text-align: center;
+        margin: 0px;
+        width: 300px;
+        color: var(--fourth);
+        font-family: "Courier New", Courier, monospace;
+        letter-spacing: 0px;
+        font-weight: 100;
+        font-size: 20px;
+        margin-bottom: 150px;
+    }
     .main-image-4 {
         margin-left: 0px;
         width: 200px;
         height: 200px;
+        margin-top: 150px;
     }
     .main-5 {
         display: flex;
@@ -459,6 +450,17 @@
         align-items: center;
         align-content: center;
         justify-content: center;
+    }
+    .main-title-5 {
+        text-align: center;
+        margin: 0px;
+        width: 300px;
+        color: var(--fourth);
+        font-family: "Courier New", Courier, monospace;
+        letter-spacing: 0px;
+        font-weight: 100;
+        font-size: 20px;
+        margin-bottom: 150px;
     }
     .main-image-5 {
         width: 200px;

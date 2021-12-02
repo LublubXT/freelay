@@ -22,7 +22,7 @@ function add_navbar_2() {
         render();
     } else {
         page_css += navbar_2.css;
-        responsive_css += navbar_2responsive_css;
+        responsive_css += navbar_2.responsive_css;
         render()
     }
 }
@@ -84,6 +84,39 @@ function add_main_3() {
         render();
     } else {
         page_css += main_3.css;
+        render()
+    }
+}
+
+function add_main_3_1() {
+    page_html += main_3_1.html
+    responsive_css += main_3_1.responsive_css;
+    if (page_css.includes('.main-3')) {
+        render();
+    } else {
+        page_css += main_3_1.css;
+        render()
+    }
+}
+
+function add_main_3_2() {
+    page_html += main_3_2.html
+    responsive_css += main_3_2.responsive_css;
+    if (page_css.includes('.main-3')) {
+        render();
+    } else {
+        page_css += main_3_2.css;
+        render()
+    }
+}
+
+function add_main_3_3() {
+    page_html += main_3_3.html
+    responsive_css += main_3_3.responsive_css;
+    if (page_css.includes('.main-3')) {
+        render();
+    } else {
+        page_css += main_3_3.css;
         render()
     }
 }
