@@ -232,14 +232,20 @@
     align-items: center;
     align-content: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .main-item-3 {
+    display: flex;
+    flex-direction: column;
     padding: 20px;
     border-radius: 10px;
     background-color: rgb(226, 226, 226);
     margin: 100px 2%;
     width: 20%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
 .main-item-image-3 {
@@ -257,7 +263,6 @@
     font-family: "Courier New", Courier, monospace;
     letter-spacing: 0px;
     font-weight: 100;
-    margin-bottom: 50px;
 }
 
 .main-item-button-3 {
@@ -276,20 +281,64 @@
     outline: none;
     margin: auto;
     margin-bottom: 50px;
+    margin-top: 50px;
     transition: all 0.4s ease;
 }
 
 .main-item-button-3:hover {
+    display: block;
     text-align: center;
-    margin: auto;
-    color: var(--fourth);
+    margin: 0px;
+    color: var(--first);
     font-family: "Courier New", Courier, monospace;
     letter-spacing: 2px;
-    font-weight: 100;
-    background-color: transparent;
+    font-weight: 500;
+    font-size: 12px;
+    background-color: rgb(158, 158, 158);
     border: 5px solid rgb(153, 153, 153);
     padding: 20px 30px;
     border-radius: 50px;
+    outline: none;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    opacity: 0.8;
+}
+
+.main-item-button-3-6 {
+    display: block;
+    text-align: center;
+    margin: 0px;
+    color: var(--first);
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: rgb(158, 158, 158);
+    border: 5px solid rgb(153, 153, 153);
+    padding: 10px 20px;
+    border-radius: 50px;
+    outline: none;
+    margin: auto;
+    transition: all 0.4s ease;
+}
+
+.main-item-button-3-6:hover {
+    display: block;
+    text-align: center;
+    margin: 0px;
+    color: var(--first);
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: rgb(158, 158, 158);
+    border: 5px solid rgb(153, 153, 153);
+    padding: 20px 30px;
+    border-radius: 50px;
+    outline: none;
+    margin: auto;
+    margin-bottom: 50px;
     opacity: 0.8;
 }
 

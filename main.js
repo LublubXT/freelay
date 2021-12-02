@@ -121,6 +121,39 @@ function add_main_3_3() {
     }
 }
 
+function add_main_3_4() {
+    page_html += main_3_4.html
+    responsive_css += main_3_4.responsive_css;
+    if (page_css.includes('.main-3')) {
+        render();
+    } else {
+        page_css += main_3_4.css;
+        render()
+    }
+}
+
+function add_main_3_5() {
+    page_html += main_3_5.html
+    responsive_css += main_3_5.responsive_css;
+    if (page_css.includes('.main-3')) {
+        render();
+    } else {
+        page_css += main_3_5.css;
+        render()
+    }
+}
+
+function add_main_3_6() {
+    page_html += main_3_6.html
+    responsive_css += main_3_6.responsive_css;
+    if (page_css.includes('.main-3')) {
+        render();
+    } else {
+        page_css += main_3_6.css;
+        render()
+    }
+}
+
 function add_main_4() {
     page_html += main_4.html
     responsive_css += main_4.responsive_css;

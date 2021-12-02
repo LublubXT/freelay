@@ -338,14 +338,20 @@ const main_3 = {
     align-items: center;
     align-content: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .main-item-3 {
+    display: flex;
+    flex-direction: column;
     padding: 20px;
     border-radius: 10px;
     background-color: rgb(226, 226, 226);
     margin: 100px 2%;
     width: 20%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
 .main-item-image-3 {
@@ -382,20 +388,27 @@ const main_3 = {
     outline: none;
     margin: auto;
     margin-bottom: 50px;
+    margin-top: 50px;
     transition: all 0.4s ease;
 }
 
 .main-item-button-3:hover {
+    display: block;
     text-align: center;
-    margin: auto;
-    color: var(--fourth);
+    margin: 0px;
+    color: var(--first);
     font-family: "Courier New", Courier, monospace;
     letter-spacing: 2px;
-    font-weight: 100;
-    background-color: transparent;
+    font-weight: 500;
+    font-size: 12px;
+    background-color: rgb(158, 158, 158);
     border: 5px solid rgb(153, 153, 153);
     padding: 20px 30px;
     border-radius: 50px;
+    outline: none;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
     opacity: 0.8;
 }\n\n`,
     responsive_css: `.main-3 {
@@ -451,14 +464,20 @@ const main_3_1 = {
     align-items: center;
     align-content: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .main-item-3 {
+    display: flex;
+    flex-direction: column;
     padding: 20px;
     border-radius: 10px;
     background-color: rgb(226, 226, 226);
     margin: 100px 2%;
     width: 20%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
 .main-item-image-3 {
@@ -528,14 +547,20 @@ const main_3_2 = {
     align-items: center;
     align-content: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .main-item-3 {
+    display: flex;
+    flex-direction: column;
     padding: 20px;
     border-radius: 10px;
     background-color: rgb(226, 226, 226);
     margin: 100px 2%;
     width: 20%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
 .main-item-image-3 {
@@ -595,6 +620,7 @@ const main_3_3 = {
     align-items: center;
     align-content: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .main-item-3 {
@@ -616,6 +642,340 @@ const main_3_3 = {
     letter-spacing: 0px;
     font-weight: 100;
     margin-bottom: 50px;
+}\n\n`,
+    responsive_css: `.main-3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    background-color: whitesmoke;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.main-item-3 {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 70%;
+}`
+};
+
+const main_3_4 = {
+    html: `<div class="main-3">
+    <div class="main-item-3">
+        <div class="main-item-image-3"></div>
+        <button class="main-item-button-3">- Button -</button>
+    </div>
+    <div class="main-item-3">
+        <div class="main-item-image-3"></div>
+        <button class="main-item-button-3">- Button -</button>
+    </div>
+    <div class="main-item-3">
+        <div class="main-item-image-3"></div>
+        <button class="main-item-button-3">- Button -</button>
+    </div>
+</div>\n\n`,
+    css: `.main-3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    min-height: 75vh;
+    padding: 100px auto;
+    background-color: whitesmoke;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-item-3 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+    margin: 100px 2%;
+    width: 20%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.main-item-image-3 {
+    width: 7vw;
+    height: 7vw;
+    background-color: rgb(153, 153, 153);
+    border-radius: 50%;
+    margin: 30px auto;
+}
+
+.main-item-button-3 {
+    display: block;
+    text-align: center;
+    margin: 0px;
+    color: var(--first);
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 12px;
+    background-color: rgb(158, 158, 158);
+    border: 5px solid rgb(153, 153, 153);
+    padding: 10px 20px;
+    border-radius: 50px;
+    outline: none;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    transition: all 0.4s ease;
+}
+
+.main-item-button-3:hover {
+    display: block;
+    text-align: center;
+    margin: 0px;
+    color: var(--first);
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 12px;
+    background-color: rgb(158, 158, 158);
+    border: 5px solid rgb(153, 153, 153);
+    padding: 20px 30px;
+    border-radius: 50px;
+    outline: none;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    opacity: 0.8;
+}\n\n`,
+    responsive_css: `.main-3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    background-color: whitesmoke;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.main-item-3 {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 70%;
+}
+.main-item-image-3 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(153, 153, 153);
+    border-radius: 50%;
+    margin: 30px auto;
+}`
+};
+
+const main_3_5 = {
+    html: `<div class="main-3">
+    <div class="main-item-3">
+        <p class="main-item-text-3">- Main Item Text -</p>
+        <button class="main-item-button-3">- Button -</button>
+    </div>
+    <div class="main-item-3">
+        <p class="main-item-text-3">- Main Item Text -</p>
+        <button class="main-item-button-3">- Button -</button>
+    </div>
+    <div class="main-item-3">
+        <p class="main-item-text-3">- Main Item Text -</p>
+        <button class="main-item-button-3">- Button -</button>
+    </div>
+</div>\n\n`,
+    css: `.main-3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    min-height: 75vh;
+    padding: 100px auto;
+    background-color: whitesmoke;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-item-3 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+    margin: 100px 2%;
+    width: 20%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.main-item-text-3 {
+    text-align: center;
+    margin: 0px;
+    color: var(--fourth);
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 0px;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+
+.main-item-button-3 {
+    display: block;
+    text-align: center;
+    margin: 0px;
+    color: var(--first);
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 12px;
+    background-color: rgb(158, 158, 158);
+    border: 5px solid rgb(153, 153, 153);
+    padding: 10px 20px;
+    border-radius: 50px;
+    outline: none;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    transition: all 0.4s ease;
+}
+
+.main-item-button-3:hover {
+    display: block;
+    text-align: center;
+    margin: 0px;
+    color: var(--first);
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 12px;
+    background-color: rgb(158, 158, 158);
+    border: 5px solid rgb(153, 153, 153);
+    padding: 20px 30px;
+    border-radius: 50px;
+    outline: none;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    opacity: 0.8;
+}\n\n`,
+    responsive_css: `.main-3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    background-color: whitesmoke;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.main-item-3 {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 70%;
+}`
+};
+
+const main_3_6 = {
+    html: `<div class="main-3">
+    <div class="main-item-3">
+        <button class="main-item-button-3-6">Button</button>
+    </div>
+    <div class="main-item-3">
+        <button class="main-item-button-3-6">Button</button>
+    </div>
+    <div class="main-item-3">
+        <button class="main-item-button-3-6">Button</button>
+    </div
+</div>\n\n`,
+    css: `.main-3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    min-height: 75vh;
+    padding: 100px auto;
+    background-color: whitesmoke;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-item-3 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+    margin: 100px 2%;
+    width: 20%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.main-item-image-3 {
+    width: 7vw;
+    height: 7vw;
+    background-color: rgb(153, 153, 153);
+    border-radius: 50%;
+    margin: 30px auto;
+}
+
+.main-item-text-3 {
+    text-align: center;
+    margin: 0px;
+    color: var(--fourth);
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 0px;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+
+.main-item-button-3-6 {
+    display: block;
+    text-align: center;
+    margin: 0px;
+    color: var(--first);
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: rgb(158, 158, 158);
+    border: 5px solid rgb(153, 153, 153);
+    padding: 10px 20px;
+    border-radius: 50px;
+    outline: none;
+    margin: auto;
+    transition: all 0.4s ease;
+}
+
+.main-item-button-3-6:hover {
+    text-align: center;
+    margin: auto;
+    color: var(--fourth);
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 2px;
+    font-weight: 100;
+    background-color: transparent;
+    border: 5px solid rgb(153, 153, 153);
+    padding: 20px 30px;
+    opacity: 0.8;
 }\n\n`,
     responsive_css: `.main-3 {
     display: flex;
