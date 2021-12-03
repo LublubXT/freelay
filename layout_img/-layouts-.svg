@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="3239.1853mm"
-   height="2129.3721mm"
-   viewBox="0 0 3239.1853 2129.3721"
+   width="403.71811mm"
+   height="257.6546mm"
+   viewBox="0 0 403.71811 257.65461"
    version="1.1"
    id="svg8"
    inkscape:version="1.1.1 (eb90963e84, 2021-10-02)"
@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.04"
-     inkscape:cx="8537.5"
-     inkscape:cy="3525"
+     inkscape:zoom="0.08"
+     inkscape:cx="-3893.75"
+     inkscape:cy="1037.5"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -52,7 +52,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(688.9884,-947.79735)">
+     transform="translate(-2146.4788,-1913.5833)">
     <g
        id="g9291"
        transform="translate(1903.3704,1252.6966)">
@@ -2057,7 +2057,8 @@
        y="1915.7433"
        ry="0"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-3-4.png" />
     <rect
        style="fill:#e1e1e1;fill-opacity:1;stroke-width:2.765"
        id="rect1003-6-6-5-7-7-5-5"
@@ -2067,7 +2068,8 @@
        y="1929.9406"
        ry="0.17962509"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-3-4.png" />
     <rect
        style="fill:#a7a7a7;fill-opacity:1;stroke-width:0.991145"
        id="rect1566-53-1-6-2"
@@ -2077,7 +2079,8 @@
        y="2082.7444"
        ry="8.8715668"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-3-4.png" />
     <rect
        style="fill:#a7a7a7;fill-opacity:1;stroke-width:0.982474"
        id="rect1566-53-1-6-6-7"
@@ -2087,7 +2090,8 @@
        y="2081.9915"
        ry="8.8715668"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-3-4.png" />
     <rect
        style="fill:#a7a7a7;fill-opacity:1;stroke-width:0.97761"
        id="rect1566-53-1-6-6-9-0"
@@ -2097,25 +2101,35 @@
        y="2080.8914"
        ry="8.8715668"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-3-4.png" />
     <circle
        style="fill:#9d9d9d;stroke-width:2.62911"
        id="path8342-6-0-6-1-62"
        cx="1304.6825"
        cy="2014.3179"
-       r="35.77343" />
+       r="35.77343"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-3-4.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <circle
        style="fill:#9d9d9d;stroke-width:2.62911"
        id="path8342-6-0-6-1-6-9"
        cx="1416.1351"
        cy="2013.8972"
-       r="35.77343" />
+       r="35.77343"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-3-4.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <circle
        style="fill:#9d9d9d;stroke-width:2.62911"
        id="path8342-6-0-6-1-3-1"
        cx="1527.5209"
        cy="2012.6514"
-       r="35.77343" />
+       r="35.77343"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-3-4.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <g
        id="g9958"
        inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main3-3.png"
@@ -2283,7 +2297,8 @@
        y="1913.1306"
        ry="0"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-3-5.png" />
     <rect
        style="fill:#e1e1e1;fill-opacity:1;stroke-width:2.765"
        id="rect1003-6-6-5-7-7-7-6"
@@ -2293,7 +2308,8 @@
        y="1927.3279"
        ry="0.17962509"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-3-5.png" />
     <rect
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#bcbcbc;stroke-width:2.765;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect10-5-3-3-2-7-1-3-2"
@@ -2303,7 +2319,8 @@
        y="1914.9658"
        ry="0"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-3-6.png" />
     <rect
        style="fill:#e1e1e1;fill-opacity:1;stroke-width:2.765"
        id="rect1003-6-6-5-7-7-7-6-2"
@@ -2313,7 +2330,8 @@
        y="1929.1631"
        ry="0.17962509"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-3-6.png" />
     <rect
        style="fill:#a7a7a7;fill-opacity:1;stroke-width:0.991145"
        id="rect1566-53-1-6-2-7"
@@ -2323,7 +2341,8 @@
        y="2077.3032"
        ry="8.8715668"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-3-5.png" />
     <rect
        style="fill:#a7a7a7;fill-opacity:1;stroke-width:0.991145"
        id="rect1566-53-1-6-2-7-5"
@@ -2333,7 +2352,8 @@
        y="2077.8711"
        ry="8.8715668"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-3-5.png" />
     <rect
        style="fill:#a7a7a7;fill-opacity:1;stroke-width:0.991145"
        id="rect1566-53-1-6-2-7-9"
@@ -2343,7 +2363,8 @@
        y="2076.2058"
        ry="8.8715668"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-3-5.png" />
     <rect
        style="fill:#a7a7a7;fill-opacity:1;stroke-width:2.01824"
        id="rect1566-53-1-6-2-7-8"
@@ -2353,7 +2374,8 @@
        y="2024.6245"
        ry="21.99468"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-3-6.png" />
     <rect
        style="fill:#a7a7a7;fill-opacity:1;stroke-width:2.01824"
        id="rect1566-53-1-6-2-7-8-3"
@@ -2363,7 +2385,8 @@
        y="2023.3579"
        ry="21.99468"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-3-6.png" />
     <rect
        style="fill:#a7a7a7;fill-opacity:1;stroke-width:2.01824"
        id="rect1566-53-1-6-2-7-8-3-6"
@@ -2373,7 +2396,8 @@
        y="2024.2747"
        ry="21.99468"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-3-6.png" />
     <rect
        style="fill:#a7a7a7;fill-opacity:1;stroke-width:0.766702"
        id="rect1566-5-7-2-9-3-9-5-0"
@@ -2384,7 +2408,8 @@
        ry="0"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       transform="scale(-1,1)" />
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-3-5.png" />
     <rect
        style="fill:#a7a7a7;fill-opacity:1;stroke-width:0.60371"
        id="rect1566-5-3-5-9-3-7-7-3-6"
@@ -2395,7 +2420,8 @@
        ry="0"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       transform="scale(-1,1)" />
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-3-5.png" />
     <rect
        style="fill:#a7a7a7;fill-opacity:1;stroke-width:0.766702"
        id="rect1566-5-7-2-9-5-3-8-2"
@@ -2406,7 +2432,8 @@
        ry="0"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       transform="scale(-1,1)" />
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-3-5.png" />
     <rect
        style="fill:#a7a7a7;fill-opacity:1;stroke-width:0.60371"
        id="rect1566-5-3-5-9-3-9-6-8-6"
@@ -2417,7 +2444,8 @@
        ry="0"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       transform="scale(-1,1)" />
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-3-5.png" />
     <rect
        style="fill:#a7a7a7;fill-opacity:1;stroke-width:0.766702"
        id="rect1566-5-7-2-9-3-9-3-1"
@@ -2428,7 +2456,8 @@
        ry="0"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       transform="scale(-1,1)" />
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-3-5.png" />
     <rect
        style="fill:#a7a7a7;fill-opacity:1;stroke-width:0.60371"
        id="rect1566-5-3-5-9-3-7-7-1-8"
@@ -2439,7 +2468,8 @@
        ry="0"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       transform="scale(-1,1)" />
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-3-5.png" />
     <rect
        style="fill:#a7a7a7;fill-opacity:1;stroke-width:0.766702"
        id="rect1566-5-7-2-9-5-3-89-7"
@@ -2450,7 +2480,8 @@
        ry="0"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       transform="scale(-1,1)" />
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-3-5.png" />
     <rect
        style="fill:#a7a7a7;fill-opacity:1;stroke-width:0.60371"
        id="rect1566-5-3-5-9-3-9-6-6-9"
@@ -2461,7 +2492,8 @@
        ry="0"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       transform="scale(-1,1)" />
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-3-5.png" />
     <rect
        style="fill:#a7a7a7;fill-opacity:1;stroke-width:0.766702"
        id="rect1566-5-7-2-9-3-9-4-2"
@@ -2472,7 +2504,8 @@
        ry="0"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       transform="scale(-1,1)" />
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-3-5.png" />
     <rect
        style="fill:#a7a7a7;fill-opacity:1;stroke-width:0.60371"
        id="rect1566-5-3-5-9-3-7-7-33-0"
@@ -2483,7 +2516,8 @@
        ry="0"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       transform="scale(-1,1)" />
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-3-5.png" />
     <rect
        style="fill:#a7a7a7;fill-opacity:1;stroke-width:0.766702"
        id="rect1566-5-7-2-9-5-3-3-2"
@@ -2494,7 +2528,8 @@
        ry="0"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       transform="scale(-1,1)" />
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-3-5.png" />
     <rect
        style="fill:#a7a7a7;fill-opacity:1;stroke-width:0.60371"
        id="rect1566-5-3-5-9-3-9-6-86-3"
@@ -2505,7 +2540,8 @@
        ry="0"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       transform="scale(-1,1)" />
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-3-5.png" />
     <path
        sodipodi:type="star"
        style="fill:none;fill-opacity:1;stroke:#d91414;stroke-width:43.3323;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.302819"
