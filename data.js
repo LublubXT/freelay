@@ -75,7 +75,7 @@ const navbar_2 = {
 
 const header_1 = {
     html: `<div class="header-1">
-    <h1 class="header-title-1">- Header Text -</h1>
+    <h1 class="header-title-1">Header Text</h1>
 </div>\n\n`,
     css: `.header-1 {
     display: flex;
