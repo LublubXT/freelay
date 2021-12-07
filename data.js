@@ -44,7 +44,7 @@ const navbar_1 = {
     padding: 10px 15px;
 }\n\n`,
     responsive_css: `.navbar-1 {
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(255, 255, 255);
     padding: 0px 20px;
     display: flex;
     flex-direction: column;
@@ -59,14 +59,15 @@ const navbar_2 = {
     <a href="#" class="nav-link-1">Blog</a>
 </div>\n\n`,
     css: `.navbar-2 {
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(255, 255, 255);
     padding: 0px 20px;
     display: flex;
     flex-direction: row;
     border-radius: 15px;
+    border: 5px solid #491515ff;
 }\n\n`,
     responsive_css: `.navbar-2 {
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(255, 255, 255);
     padding: 0px 20px;
     display: flex;
     flex-direction: column;
@@ -81,19 +82,22 @@ const header_1 = {
     display: flex;
     width: 100%;
     height: 75vh;
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
     align-items: center;
     align-content: center;
     justify-content: center;
+    background-image: url("");
+    background-size: cover;
 }
 
 .header-title-1 {
     text-align: center;
     margin: 0px;
-    color: var(--fourth);
+    color: #491515ff;
     font-family: "Courier New", Courier, monospace;
     letter-spacing: 5px;
     font-weight: 100;
+    font-size: 20px;
 }\n\n`,
 
 };
@@ -106,7 +110,7 @@ const header_2 = {
     display: flex;
     width: 100%;
     height: 75vh;
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
     align-items: center;
     align-content: center;
     justify-content: center;
@@ -120,8 +124,8 @@ const header_2 = {
     letter-spacing: 2px;
     font-weight: 500;
     font-size: 20px;
-    background-color: rgb(158, 158, 158);
-    border: 5px solid rgb(153, 153, 153);
+    background-color: #491515ff;
+    border: 5px solid #491515ff;
     padding: 20px 30px;
     border-radius: 50px;
     outline: none;
@@ -131,12 +135,12 @@ const header_2 = {
 .header-button-2:hover {
     text-align: center;
     margin: 0px;
-    color: var(--fourth);
+    color: #491515ff;
     font-family: "Courier New", Courier, monospace;
     letter-spacing: 2px;
     font-weight: 100;
     background-color: transparent;
-    border: 5px solid rgb(153, 153, 153);
+    border: 5px solid #491515ff;
     padding: 20px 30px;
     border-radius: 50px;
     opacity: 0.8;
@@ -153,7 +157,7 @@ const header_3 = {
     flex-direction: column;
     width: 100%;
     height: 75vh;
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
     align-items: center;
     align-content: center;
     justify-content: center;
@@ -162,7 +166,7 @@ const header_3 = {
 .header-title-3 {
     text-align: center;
     margin: 0px;
-    color: var(--fourth);
+    color: #491515ff;
     font-family: "Courier New", Courier, monospace;
     letter-spacing: 5px;
     font-weight: 100;
@@ -172,13 +176,13 @@ const header_3 = {
 .header-button-3 {
     text-align: center;
     margin: 0px;
-    color: var(--first);
+    color: white;
     font-family: "Courier New", Courier, monospace;
     letter-spacing: 2px;
     font-weight: 500;
     font-size: 20px;
-    background-color: rgb(158, 158, 158);
-    border: 5px solid rgb(153, 153, 153);
+    background-color: #491515ff;
+    border: 5px solid #491515ff;
     padding: 20px 30px;
     border-radius: 50px;
     outline: none;
@@ -188,12 +192,12 @@ const header_3 = {
 .header-button-3:hover {
     text-align: center;
     margin: 0px;
-    color: var(--fourth);
+    color: #491515ff;
     font-family: "Courier New", Courier, monospace;
     letter-spacing: 2px;
     font-weight: 100;
     background-color: transparent;
-    border: 5px solid rgb(153, 153, 153);
+    border: 5px solid #491515ff;
     padding: 20px 30px;
     border-radius: 50px;
     opacity: 0.8;
@@ -211,7 +215,7 @@ const main_1 = {
     width: 100%;
     height: fit-content;
     min-height: 75vh;
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
     align-items: center;
     align-content: center;
     justify-content: center;
@@ -220,7 +224,7 @@ const main_1 = {
 .main-title-1 {
     text-align: center;
     margin: 0px;
-    color: var(--fourth);
+    color: #491515ff;
     font-family: "Courier New", Courier, monospace;
     letter-spacing: 5px;
     font-weight: 100;
@@ -231,11 +235,41 @@ const main_1 = {
 .main-image-1 {
     width: 200px;
     height: 200px;
-    background-color: rgb(158, 158, 158);
+    background-color: #d34453dd;
     margin-bottom: 50px;
     border-radius: 50%;
     background-image: url();
     background-size: cover;
+}
+
+.main-button-1 {
+    text-align: center;
+    margin: 0px;
+    color: var(--first);
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: #491515ff;
+    border: 5px solid #491515ff;
+    padding: 20px 30px;
+    border-radius: 50px;
+    outline: none;
+    transition: all 0.4s ease;
+}
+
+.main-button-1:hover {
+    text-align: center;
+    margin: 0px;
+    color: #491515ff;
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 2px;
+    font-weight: 100;
+    background-color: transparent;
+    border: 5px solid #491515ff;
+    padding: 20px 30px;
+    border-radius: 50px;
+    opacity: 0.8;
 }\n\n`
 };
 
@@ -251,7 +285,7 @@ const main_2 = {
     width: 100%;
     height: fit-content;
     min-height: 75vh;
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
     align-items: center;
     align-content: center;
     justify-content: center;
@@ -260,7 +294,7 @@ const main_2 = {
 .main-title-1 {
     text-align: center;
     margin: 0px;
-    color: var(--fourth);
+    color: #491515ff;
     font-family: "Courier New", Courier, monospace;
     letter-spacing: 5px;
     font-weight: 100;
@@ -271,7 +305,7 @@ const main_2 = {
 .main-image-1 {
     width: 200px;
     height: 200px;
-    background-color: rgb(158, 158, 158);
+    background-color: #d34453dd;
     margin-bottom: 50px;
     border-radius: 50%;
     background-image: url();
@@ -281,13 +315,13 @@ const main_2 = {
 .main-button-1 {
     text-align: center;
     margin: 0px;
-    color: whitesmoke;
+    color: var(--first);
     font-family: "Courier New", Courier, monospace;
     letter-spacing: 2px;
     font-weight: 500;
     font-size: 15px;
-    background-color: rgb(158, 158, 158);
-    border: 5px solid rgb(153, 153, 153);
+    background-color: #491515ff;
+    border: 5px solid #491515ff;
     padding: 20px 30px;
     border-radius: 50px;
     outline: none;
@@ -297,12 +331,12 @@ const main_2 = {
 .main-button-1:hover {
     text-align: center;
     margin: 0px;
-    color: var(--fourth);
+    color: #491515ff;
     font-family: "Courier New", Courier, monospace;
     letter-spacing: 2px;
     font-weight: 100;
     background-color: transparent;
-    border: 5px solid rgb(153, 153, 153);
+    border: 5px solid #491515ff;
     padding: 20px 30px;
     border-radius: 50px;
     opacity: 0.8;
@@ -334,7 +368,7 @@ const main_3 = {
     height: fit-content;
     min-height: 75vh;
     padding: 100px auto;
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
     align-items: center;
     align-content: center;
     justify-content: center;
@@ -346,7 +380,7 @@ const main_3 = {
     flex-direction: column;
     padding: 20px;
     border-radius: 10px;
-    background-color: rgb(226, 226, 226);
+    background-color: #491515ff;
     margin: 100px 2%;
     width: 20%;
     align-items: center;
@@ -357,7 +391,7 @@ const main_3 = {
 .main-item-image-3 {
     width: 7vw;
     height: 7vw;
-    background-color: rgb(153, 153, 153);
+    background-color: #d34453dd;
     border-radius: 50%;
     margin: 30px auto;
 }
@@ -365,24 +399,23 @@ const main_3 = {
 .main-item-text-3 {
     text-align: center;
     margin: 0px;
-    color: var(--fourth);
+    color: white;
     font-family: "Courier New", Courier, monospace;
     letter-spacing: 0px;
     font-weight: 100;
-    margin-bottom: 50px;
 }
 
 .main-item-button-3 {
     display: block;
     text-align: center;
     margin: 0px;
-    color: var(--first);
+    color: rgb(255, 255, 255);
     font-family: "Courier New", Courier, monospace;
     letter-spacing: 2px;
     font-weight: 500;
     font-size: 12px;
-    background-color: rgb(158, 158, 158);
-    border: 5px solid rgb(153, 153, 153);
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px solid rgb(255, 255, 255);
     padding: 10px 20px;
     border-radius: 50px;
     outline: none;
@@ -396,20 +429,19 @@ const main_3 = {
     display: block;
     text-align: center;
     margin: 0px;
-    color: var(--first);
+    color: #491515ff;
     font-family: "Courier New", Courier, monospace;
     letter-spacing: 2px;
     font-weight: 500;
     font-size: 12px;
-    background-color: rgb(158, 158, 158);
-    border: 5px solid rgb(153, 153, 153);
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
     padding: 20px 30px;
     border-radius: 50px;
     outline: none;
     margin: auto;
     margin-bottom: 50px;
     margin-top: 50px;
-    opacity: 0.8;
 }\n\n`,
     responsive_css: `.main-3 {
     display: flex;
@@ -1120,11 +1152,107 @@ const main_6 = {
     <div class="main-content-6">
         <div class="main-image-6"></div>
         <h1 class="main-title-6">- Main Title Text -</h1>
-        <h1 class="main-text-6">- Main Text -</h1>
+        <h1 class="main-text-6">- Main text for area. Add and remove text. Create something great! -</h1>
     </div>
 </div>\n\n`,
-    css: `\n\n`,
-    responsive_css: `\n\n`
+    css: `.main-6 {
+    width: 100%;
+    min-height: 75vh;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+}
+
+.main-sidebar-6 {
+    width: 20%;
+    min-height: 50vh;
+    height: fit-content;
+    background-color: #491515ff;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.main-content-6 {
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.main-title-6 {
+    font-weight: 100;
+    text-align: center;
+}
+
+.main-text-6 {
+    font-size: 17px;
+    font-weight: 100;
+}\n\n`,
+    responsive_css: `.main-6 {
+        width: 100%;
+        min-height: 75vh;
+        height: fit-content;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+    }
+    .main-sidebar-6 {
+        width: 88%;
+        min-height: 50vh;
+        height: fit-content;
+        background-color: #491515ff;
+        margin: 20px;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .main-content-6 {
+        width: 88%;
+        margin: 20px;
+        padding: 20px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        font-family: "Courier New", Courier, monospace;
+        margin: auto;
+    }
+    .main-title-6 {
+        font-weight: 100;
+        text-align: center;
+    }
+    .main-text-6 {
+        font-size: 17px;
+        font-weight: 100;
+    }\n\n`
+};
+
+const main_7 = {
+    html: `<div class="main-7">
+    <div class="main-sidebar-6"></div>
+    <div class="main-content-6">
+        <div class="main-image-6"></div>
+        <h1 class="main-title-6">- Main Title Text -</h1>
+        <h1 class="main-text-6">- Main text for area. Add and remove text. Create something great! -</h1>
+    </div>
+</div>\n\n`,
+    css: `.main-7 {
+    width: 100%;
+    min-height: 75vh;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row-reverse;
+}\n\n`,
+    responsive_css: `.main-7 {
+        width: 100%;
+        min-height: 75vh;
+        height: fit-content;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+    }\n\n`
 };
 
 const footer_1 = {

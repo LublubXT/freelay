@@ -160,6 +160,22 @@
     opacity: 0.8;
 }
 
+.button-1 {
+    text-align: center;
+    margin: 0px;
+    color: var(--first);
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: #491515ff;
+    border: 5px solid #491515ff;
+    padding: 20px 30px;
+    border-radius: 50px;
+    outline: none;
+    transition: all 0.4s ease;
+}
+
 .main-1 {
     display: flex;
     flex-direction: column;
@@ -194,22 +210,6 @@
 }
 
 .main-button-1 {
-    text-align: center;
-    margin: 0px;
-    color: var(--first);
-    font-family: "Courier New", Courier, monospace;
-    letter-spacing: 2px;
-    font-weight: 500;
-    font-size: 15px;
-    background-color: #491515ff;
-    border: 5px solid #491515ff;
-    padding: 20px 30px;
-    border-radius: 50px;
-    outline: none;
-    transition: all 0.4s ease;
-}
-
-.button-1 {
     text-align: center;
     margin: 0px;
     color: var(--first);
@@ -453,6 +453,15 @@
     font-family: "Courier New", Courier, monospace;
 }
 
+.main-image-6 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #491515ff;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
 .main-title-6 {
     font-weight: 100;
     text-align: center;
@@ -461,6 +470,15 @@
 .main-text-6 {
     font-size: 17px;
     font-weight: 100;
+}
+
+.main-7 {
+    width: 100%;
+    min-height: 75vh;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .footer-1 {
@@ -499,7 +517,7 @@
 
 @media (max-width: 800px) {
     .navbar-1 {
-        background-color: rgb(226, 226, 226);
+        background-color: rgb(255, 255, 255);
         padding: 0px 20px;
         display: flex;
         flex-direction: column;
@@ -591,5 +609,48 @@
         align-items: center;
         align-content: center;
         justify-content: center;
+    }
+    .main-6 {
+        width: 100%;
+        min-height: 75vh;
+        height: fit-content;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+    }
+    .main-sidebar-6 {
+        width: 88%;
+        min-height: 50vh;
+        height: fit-content;
+        background-color: #491515ff;
+        margin: 20px;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .main-content-6 {
+        width: 88%;
+        margin: 20px;
+        padding: 20px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        font-family: "Courier New", Courier, monospace;
+        margin: auto;
+    }
+    .main-title-6 {
+        font-weight: 100;
+        text-align: center;
+    }
+    .main-text-6 {
+        font-size: 17px;
+        font-weight: 100;
+    }
+    .main-7 {
+        width: 100%;
+        min-height: 75vh;
+        height: fit-content;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
     }
 }
