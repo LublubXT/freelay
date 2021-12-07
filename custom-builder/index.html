@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free web layout maker.">
+    <meta name="keywords" content="free web layout maker designer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/temp.css">
+    <link rel="shortcut icon" href="../layout_img/logo.png">
+    <title>FreeLay | App</title>
+</head>
+
+<body>
+    <div class="sidebar-r">
+        <button class="sidebar-item" onclick="add_button_1()">
+                <img src="./component/button-1.png" alt="button-1" />
+                <p>Round Button</p>
+            </button>
+    </div>
+
+    <div id="code" class="tabcontent sidebar-l">
+        <div class="tab-area">
+            <button class="tab-active" onclick="openCity(event, 'code')">Code</button>
+            <button class="tab" onclick="openCity(event, 'style')">Style</button>
+            <!-- <button class="tab" onclick="openCity(event, 'Tokyo')">Tokyo</button> -->
+        </div>
+        <p id="element_name" style="text-align: center;">Template-Code</p>
+        <hr>
+        <pre id="html_of_page" contenteditable="true">Template html</pre>
+        <pre id="css_of_page" contenteditable="true">Template Css</p>
+    </div>
+
+    <div id="code" class="tabcontent sidebar-l">
+        <div class="tab-area">
+            <button class="tab-active" onclick="openCity(event, 'code')">Code</button>
+            <button class="tab" onclick="openCity(event, 'style')">Style</button>
+            <!-- <button class="tab" onclick="openCity(event, 'Tokyo')">Tokyo</button> -->
+        </div>
+        <p id="element_name" style="text-align: center;">Template-Code</p>
+        <hr>
+        <pre id="html_of_page" contenteditable="true">Template html</pre>
+        <pre id="css_of_page" contenteditable="true">Template Css</p>
+        </div>
+
+    <div id="style" class="tabcontent sidebar-l" style="display: none;">
+        <div class="tab-area">
+            <button class="tab" onclick="openCity(event, 'code')">Code</button>
+            <button class="tab-active" onclick="openCity(event, 'style')">Style</button>
+            <!-- <button class="tab" onclick="openCity(event, 'Tokyo')">Tokyo</button> -->
+        </div>
+        <p id="element_name" style="text-align: center;">Template-Style</p>
+        <hr>
+        <div style="width: 94%; border: 1px solid #491515ff; border-radius: 5px; padding: 10px; margin: 20px 0px;">
+            <p>Background Color</p>
+            <input type="text" placeholder="Background Color" id="bg-color">
+        </div>
+        <div style="width: 94%; border: 1px solid #491515ff; border-radius: 5px; padding: 10px; margin: 20px 0px;">
+            <p>Text Color</p>
+            <input type="text" placeholder="Text Color" id="txt-color">
+        </div>
+        <div style="width: 94%; border: 1px solid #491515ff; border-radius: 5px; padding: 10px; margin: 20px 0px;">
+            <p>Text Align</p>
+            <input type="text" placeholder="Direction" id="txt-align">
+        </div>
+        <div style="width: 94%; border: 1px solid #491515ff; border-radius: 5px; padding: 10px; margin: 20px 0px;">
+            <p>Margin</p>
+            <input type="text" placeholder="Margin" id="margin">
+        </div>
+
+        
+    </div>
+
+    
+    <div class="paper" style="z-index: 1;">
+        <div id="paper">
+
+        </div>
+    </div>
+
+    <a href="../index.html" style="background-color: rgb(243, 243, 243); color: rgb(255, 255, 255); width: 75px; height: 75px; position: fixed; bottom: 30px; left: 30px; border-radius: 100%; display: flex; align-items: center; justify-content: center;">
+        <img src="../layout_img/Icons/home.svg" alt="tool" style="color: white;">
+    </a>
+
+    <button onclick="get_input()" style="background-color: rgb(243, 243, 243); color: rgb(255, 255, 255); width: 75px; height: 75px; position: fixed; bottom: 30px; left: 120px; border-radius: 100%; display: flex; align-items: center; justify-content: center; border: none; outline: none;">
+        <img src="../layout_img/Icons/arrow-right.svg" alt="tool" style="color: white;">
+    </button>
+    
+    <script src="./main.js"></script>
+    <script src="./data.js"></script>
+    
+</body>
+
+</html>

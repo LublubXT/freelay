@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.28"
-     inkscape:cx="-16986.719"
-     inkscape:cy="-6859.375"
+     inkscape:zoom="0.11313709"
+     inkscape:cx="-13602.967"
+     inkscape:cy="2572.1009"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -206,6 +206,17 @@
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
        inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/header-2.png" />
+    <rect
+       style="fill:#d34453;fill-opacity:0.866667;stroke-width:2.1778"
+       id="rect1566-53-12"
+       width="138.05841"
+       height="34.612434"
+       x="-1660.9127"
+       y="2367.9646"
+       ry="17.306217"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/custom-builder/component/button-1.png" />
     <rect
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#d34453;stroke-width:2.765;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.86666667"
        id="rect10-5"
@@ -418,6 +429,28 @@
        inkscape:export-ydpi="96"
        inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-2.png" />
     <rect
+       style="fill:#d34453;fill-opacity:0.866667;stroke-width:1.1842"
+       id="rect1566-5-7-2-7"
+       width="185.57097"
+       height="7.6136913"
+       x="-1702.9364"
+       y="1398.8672"
+       ry="0"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/custom-builder/component/text-1.png" />
+    <rect
+       style="fill:#d34453;fill-opacity:0.866667;stroke-width:0.932454"
+       id="rect1566-5-3-5-9-5"
+       width="115.0575"
+       height="7.6136913"
+       x="-1667.6797"
+       y="1381.1992"
+       ry="0"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/custom-builder/component/text-1.png" />
+    <rect
        style="fill:#d34453;fill-opacity:0.86666667;stroke-width:1.11639"
        id="rect1566-53-1"
        width="70.771935"
@@ -605,6 +638,15 @@
        cy="2317.7195"
        r="49.062904"
        inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/main-4.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <circle
+       style="fill:#c13e4b;fill-opacity:1;stroke-width:3.60579"
+       id="path8342-6-0-2-6"
+       cx="-1600.9099"
+       cy="1053.6388"
+       r="49.062904"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/custom-builder/component/image-1.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <rect
@@ -2699,6 +2741,28 @@
        inkscape:export-ydpi="96"
        inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/footer-1.png" />
     <rect
+       style="fill:#491515;fill-opacity:1;stroke:none;stroke-width:2.31745;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect835-6-6"
+       width="106.21088"
+       height="100.24284"
+       x="-1670.7903"
+       y="1670.317"
+       ry="0.44889838"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/custom-builder/component/box-1.png" />
+    <rect
+       style="fill:#491515;fill-opacity:1;stroke:none;stroke-width:1.35306;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect835-6-6-9"
+       width="150.84451"
+       height="24.060667"
+       x="-1664.1404"
+       y="2695.4104"
+       ry="0.10774629"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/custom-builder/component/input-1.png" />
+    <rect
        style="fill:#d34453;fill-opacity:0.86526757;stroke:none;stroke-width:1.84993;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect837-3-5"
        width="53.758282"
@@ -2786,6 +2850,83 @@
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
        inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/layout_img/footer-1.png" />
+    <rect
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#d34453;stroke-width:2.765;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.866667"
+       id="rect10-3-6-6-3"
+       width="400.95309"
+       height="254.88959"
+       x="-1794.8688"
+       y="924.23218"
+       ry="0"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/custom-builder/component/image-1.png" />
+    <rect
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#d34453;stroke-width:2.765;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.866667"
+       id="rect10-3-6-6-3-3"
+       width="400.95309"
+       height="254.88959"
+       x="-1811.609"
+       y="1266.0612"
+       ry="0"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/custom-builder/component/text-1.png" />
+    <rect
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#d34453;stroke-width:2.765;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.866667"
+       id="rect10-3-6-6-3-3-5"
+       width="400.95309"
+       height="254.88959"
+       x="-1808.4523"
+       y="1595.5675"
+       ry="0"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/custom-builder/component/box-1.png" />
+    <rect
+       style="fill:#491515;fill-opacity:1;stroke:none;stroke-width:2.31745;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect835-6-6-2"
+       width="106.21088"
+       height="100.24284"
+       x="-1665.9426"
+       y="1993.8624"
+       ry="9.9210815"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/custom-builder/component/box-2.png" />
+    <rect
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#d34453;stroke-width:2.765;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.866667"
+       id="rect10-3-6-6-3-3-5-9"
+       width="400.95309"
+       height="254.88959"
+       x="-1803.6046"
+       y="1919.1129"
+       ry="0"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/custom-builder/component/box-2.png" />
+    <rect
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#d34453;stroke-width:2.765;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.866667"
+       id="rect10-3-6-6-3-3-5-9-7"
+       width="400.95309"
+       height="254.88959"
+       x="-1797.1938"
+       y="2255.2754"
+       ry="0"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/custom-builder/component/button-1.png" />
+    <rect
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#d34453;stroke-width:2.765;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.866667"
+       id="rect10-3-6-6-3-3-5-9-7-0"
+       width="400.95309"
+       height="254.88959"
+       x="-1794.29"
+       y="2583.3721"
+       ry="0"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/calebjgross/Documents/Javascript/WebLayoutBuilder/custom-builder/component/input-1.png" />
     <rect
        style="fill:#491515;fill-opacity:1;stroke:#491515;stroke-width:11.465;stroke-linejoin:bevel;stroke-opacity:1"
        id="rect1051"
