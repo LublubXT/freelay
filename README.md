@@ -17,4 +17,7 @@ If you want to help support this project you can, by following the instructions 
 - [ ] Make a desktop app 0%
 - [ ] Make a mobile app 0%
 
+# Demo
+You can check out a demo, single page websites, that was built using this tool [here](https://lublubxt.github.io/freelay/example-websites/Explorer/index.html). Enjoy! 
+
 ![screen shot](https://github.com/LublubXT/freelay/blob/main/Screenshot%20from%202022-01-28%2010-21-10.png)
